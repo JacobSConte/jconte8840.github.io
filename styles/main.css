@@ -1,0 +1,51 @@
+h1{
+text-align: center;
+font-family: "Times New Roman", Times ,serif;
+color: gold;
+}
+
+h2{
+text-align: center;
+font-family: "Times New Roman", Times ,serif;
+color: gold;
+font-size: 32px;
+}
+
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#Newspaper {
+column-count: 3;    
+}
+
+body{
+background-color: grey
+}
+
+<style>
+
+
+div{
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+a:link{
+color: red;
+text-align: center;
+}
+a:hover{color: gold}
+
+a:active{color: mintcream;}
+
+h3{
+text-align: center;
+color:mintcream;
+}
