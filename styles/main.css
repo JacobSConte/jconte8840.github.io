@@ -1,51 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+}
 h1{
-text-align: center;
-font-family: "Times New Roman", Times ,serif;
-color: gold;
+		text-align: center;
+		font-family: "Times New Roman", Times ,serif;
+		color: gold;
 }
 
 h2{
-text-align: center;
-font-family: "Times New Roman", Times ,serif;
-color: gold;
-font-size: 32px;
+			text-align: center;
+		 font-family: "Times New Roman", Times ,serif;
+			color: gold;
+			font-size: 32px;
 }
 
 ul {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+				position: sticky;
+				top: 0;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				font-size: 25px;
 }
+    
+
 #Newspaper {
-column-count: 3;    
+		column-count: 3;
 }
 
 body{
-background-color: grey
+		background-color: grey;
 }
 
 <style>
 
 
 div{
-    width: 300px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
+					width: 300px;
+					border: 25px solid green;
+					padding: 25px;
+					margin: 25px;
+}
+nav a:link{
+		color: black;
+		text-align: center;
+}
+nav a:hover{
+		color: mediumblue;
+	              
+}
+
+nav a:active{
+		color: red;
 }
 
 a:link{
-color: red;
-text-align: center;
+		color: gold;
+		text-align: center;
+	    
 }
-a:hover{color: gold}
+a:hover{
+		color: black;
+}
 
-a:active{color: mintcream;}
+a:active{
+		color: burlywood;
+}
 
 h3{
-text-align: center;
-color:mintcream;
+		text-align: center;
+		color:mintcream;
 }
+
+
+.image{
+		width: 300px;
+		height: 200px;
+		opacity: 0.5;
+}
+
+
+img{
+		border-radius: 25%;
+		width: 120px;
+		height: 65px;
+}
+
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote: before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+

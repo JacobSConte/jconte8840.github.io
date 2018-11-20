@@ -1,0 +1,60 @@
+
+
+
+a:link{
+color: black;
+text-align: center;
+}
+a:hover{color: gold}
+
+a:active{color: white;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gold;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+				font-size: 25px;
+
+}
+	li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif}
+
+  
+li a:hover {
+    background-color: black;
+}
+
+body{
+background-color: gray;
+}
+
+
+/* Headings */
+
+.main-heading{
+color: gold;
+text-align: center;	
+}
+
+
+/* Paragraphs */ 
+p{
+color: mediumblue;
+font-size: 25px;
+}
+.paragraph-main
