@@ -1,7 +1,45 @@
+.mainnav {
+	position: sticky;
+	width: 100%;
+	top: 0;
+}
 
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 100%!important;
+background: #0261ea;
+}
+.searchbutton{
+ display:  inline-block;
+	float: right;
+	
+}
+body{
+	background-color: #ceccce;
+}
 
+li{
+    float: left;
+	   display: block;
+	   padding: 8px;
+	   background-color: #0261ea;
+	   width: 9.21%;
+				border-right: 1px solid white;	
+}
 
-a:link{
+header{
+ text-align: center;	
+}
+p{
+color: #DFDCE3;
+font-size: 22px;
+}
+
+/*Old Website Code
+ /* a:link{
 color: black;
 text-align: center;
 }
@@ -17,7 +55,7 @@ ul {
     overflow: hidden;
     background-color: gold;
     position: -webkit-sticky; /* Safari */
-    position: sticky;
+   /* position: sticky;
     top: 0;
 				font-size: 25px;
 
@@ -40,20 +78,20 @@ li a:hover {
 }
 
 body{
-background-color: gray;
+background-color: green;
 }
 
 
 /* Headings */
 
-.main-heading{
+/*.main-heading{
 color: gold;
 text-align: center;	
 }
 
 
 /* Paragraphs */ 
-p{
+/*p{
 color: mediumblue;
 font-size: 25px;
 }
