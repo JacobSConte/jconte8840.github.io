@@ -34,10 +34,20 @@ header{
  text-align: center;	
 }
 p{
-color: #DFDCE3;
+color: #062F4F;
 font-size: 22px;
 }
 
+blockquote{
+background: white;
+    border-left: 10px solid red;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes:            
+}
+
+
+}
 /*Old Website Code
  /* a:link{
 color: black;
