@@ -1,0 +1,105 @@
+/* Navigation */
+.mainnav {
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%!important;
+    background: #0261ea;
+}
+.searchbutton{
+    display:  inline-block;
+    float: right;
+}
+
+#googlesearch{
+    width: 25%;
+    float: right;
+    color: blue;
+}
+	
+/* Main Settings */
+h1{
+    color: royalblue;
+    font-family: sans-serif
+}
+
+body{
+    background-color: #ceccce;
+}
+
+li{
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: #0261ea;
+    width: 9.21%;
+    border-right: 1px solid white;	
+}
+
+header{
+    text-align: center;
+    font-family: 'Vidaloka';
+    margin-top: 82px;
+        
+}
+p{
+    color: solid black;
+    font-size: 22px;
+    font-family:'Arvo', serif;	
+    line-height: 34.4px	
+}
+
+blockquote{
+    background: white;
+    border-left: 10px solid red;
+    margin: 9.5em 1px;
+    padding: 0.5em 10px;
+    quotes:            
+}
+
+
+}
+.github{
+    color: coral;
+    font-family: sans-serif;
+    text-align: center;
+}
+	
+/* Link Colors */
+a:link{
+    color: yellow;
+    text-decoration: none;
+	 
+}
+a#theemail:link{
+    color: #0231ea;
+    text-decoration: none;
+	 
+}
+a:visited{
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+
+
+/* Fonts */
+.aboutfont
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;	
+}
+
+
