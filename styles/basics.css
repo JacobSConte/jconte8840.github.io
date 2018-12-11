@@ -21,7 +21,10 @@ ul{
 #googlesearch{
     width: 25%;
     float: right;
-    color: blue;
+    background-color:blue;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0
 }
 	
 /* Main Settings */
@@ -74,9 +77,9 @@ blockquote{
 	
 /* Link Colors */
 a:link{
-    color: yellow;
+    color: lawngreen;
     text-decoration: none;
-	 
+    font-family: 'Orbitron', sans-serif;
 }
 a#theemail:link{
     color: #0231ea;
@@ -84,22 +87,40 @@ a#theemail:link{
 	 
 }
 a:visited{
-    color: yellow;
-    text-decoration: none;
+    color: lawngreen; text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
 }
 
 a:hover{
+    color: red;
     text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    
+    display: block;
 }
 a:active{
-    text-decoration: none;
+    color: darkorange;
+    font-family: 'Orbitron', sans-serif;
+    
 }
 
 
 /* Fonts */
-.aboutfont
+.aboutfont{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 21px;	
 }
 
-
+.title1 {
+    margin-top: 73px;
+}
+.githublink:visited {
+    color: blue;
+}
+li.one{
+ background-color: darkblue;
+}
+.two:hover {
+    background-color: white;
+}
