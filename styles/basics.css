@@ -1,3 +1,29 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* Browser Reset Code Begins*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 /* Navigation */
 .mainnav {
     position: sticky;
@@ -52,11 +78,12 @@ header{
     margin-top: 82px;
         
 }
-p{
+.home{
     color: solid black;
     font-size: 22px;
     font-family:'Arvo', serif;	
-    line-height: 34.4px	
+    line-height: 34.4px;
+    text-indent: 26px;
 }
 
 blockquote{
@@ -67,7 +94,11 @@ blockquote{
     quotes:            
 }
 
-
+.EmailText{
+    color: solid black;
+    font-size: 22px;
+    font-family:'Arvo', serif;	
+    line-height: 34.4px;  
 }
 .github{
     color: coral;
@@ -93,34 +124,69 @@ a:visited{
 }
 
 a:hover{
-    color: red;
+    color: white;
     text-decoration: none;
     font-family: 'Orbitron', sans-serif;
     
     display: block;
 }
 a:active{
-    color: darkorange;
+    color: red;
     font-family: 'Orbitron', sans-serif;
     
 }
 
-
 /* Fonts */
 .aboutfont{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 21px;	
+    font-size: 36px;	
 }
 
 .title1 {
     margin-top: 73px;
 }
+/* HyperLink */
 .githublink:visited {
     color: blue;
 }
+
 li.one{
  background-color: darkblue;
 }
 .two:hover {
     background-color:blue;
+}
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0261ea;
+  color: black;
+  text-align: center;
+}
+/* Images */
+
+.codeimage {
+    margin-bottom: -426px;
+    border-radius: 17%
+}
+
+ /*Title Settings*/ 
+
+.index_title{
+    font-size: 32px;
+} 
+.nav_title{
+    font-size: 28px;
+    font-family: 'Bangers', cursive;
+    color: white;
+    margin-top: 3px;
+}
+.list_space1{
+    margin-top: 39px ;
+}
+.list_space2{
+    margin-top: 26px;
 }
