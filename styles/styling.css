@@ -1,0 +1,28 @@
+.email_link a:hover{
+    color: white
+}
+
+.email_link a:link{
+    text-decoration: none;
+}
+
+.contacts a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.contacts{
+    font-size: 2em;
+    margin-top: 2em;
+    font-family: 'Oswald'
+}
+
+.list_style{
+    line-height: 2em;   
+}
+
+.social_links{
+    font-family: 'Bangers';
+    color: white;
+    margin-left: 2em;
+}

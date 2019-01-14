@@ -1,9 +1,11 @@
 @media only screen and (max-width : 640px) {
 
-    .testwidth {
-        position: center;
-        color: red;
+    .mobilenav {
+      
     }
+.imgtest{
+    width: 13em;
+}
 }
 
 .linktest {

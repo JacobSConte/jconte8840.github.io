@@ -104,7 +104,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 100% !important;
+    width: 100% ;
     background: #0261ea;
 }
 
@@ -150,7 +150,7 @@ header {
 
 .home {
     color: black;
-    font-size: 22px;
+    font-size: 1.375em;
     font-family: 'Oswald', sans-serif;
     line-height: 34.4px;
     text-indent: 26px;
@@ -162,7 +162,9 @@ blockquote {
     border-left: 10px solid red;
     margin: 9.5em 1px;
     padding: 0.5em 10px;
-    quotes:
+    quotes: ;
+    width: 28.1em;
+
 }
 
 .EmailText {
@@ -175,7 +177,7 @@ blockquote {
 /*.github {
     color: coral;
     font-family: sans-serif;
-    text-align: center;*/ 
+    text-align: center;*/
 }
 
 /* Link Colors */
@@ -185,21 +187,21 @@ a:link {
     font-family: 'Orbitron', sans-serif;
 }
 
-.page_link a:link{
+.page_link a:link {
     color: lawngreen;
     font-family: 'Orbitron';
     text-decoration: none;
 }
 
-.page_link a:visited{
+.page_link a:visited {
     color: lawngreen;
 }
 
-.github a:hover{
+.github a:hover {
     color: blue;
     font-family: 'Oswald';
 }
-    
+
 a:visited {
     color: #551A8B;
     text-decoration: none;
@@ -210,31 +212,32 @@ a:visited {
 a:hover {
     color: #0000EE;
     text-decoration: none;
-    font-family: 'Orbitron', sans-serif;
+
 
     display: block;
 }
 
 a:active {
     color: #EE0000;
-    font-family: 'Orbitron', sans-serif;
 
 }
 
 /* Fonts 
-Titles on the page should be 32px and text font should be 22px. Font for text should be Oswald. 
+Titles on the page should be 32px and text font should be 22px convert to em's. Font for text should be Oswald. 
 */
 .aboutfont {
     font-family: 'Oswald', sans-serif;
-    font-size: 36px;
+    font-size: 2.250px;
 }
-*/
-.title1 {
+
+*/ .title1 {
     margin-top: 73px;
 }
-.langlist{
-    font-size: 28px
+
+.langlist {
+    font-size: 1.750em
 }
+
 /* HyperLink */
 /*.githublink:visited {
     color: blue;
@@ -260,27 +263,39 @@ li.one {
     padding-bottom: 20px;
 }
 
-.footer_font{
+.footer_font {
     font-family: "Bangers", cursive;
     color: white;
 }
+
 /* Images */
 
+img{
+   height: auto;     
+}
 .codeimage {
     margin-bottom: -426px;
     border-radius: 17%;
     margin-left: 30px;
 }
 
+.github_logo {
+    width: 95px;
+}
+
+.linkedin_logo {
+    width: 3.563em;
+}
+
 /*Title Settings*/
 
 .index_title {
-    font-size: 32px;
-    font-family:'Rubik', sans-serif;
+    font-size: 3em;
+    font-family: 'Rubik', sans-serif;
 }
 
 .nav_title {
-    font-size: 28px;
+    font-size: 1.750em;
     font-family: 'Bangers', cursive;
     color: white;
     margin-top: 3px;
@@ -293,6 +308,24 @@ li.one {
 .list_space2 {
     margin-top: 26px;
 }
-.theight{
+
+.theight {
     margin-top: 76px;
+}
+
+.headings {
+    font-size: 15em
+}
+
+.test_title {
+    font-size: 15em;
+}
+
+.footer_link {
+    font-family: 'Oswald';
+    color: gold;
+}
+
+.footer_link a: {
+    color: aliceblue
 }
