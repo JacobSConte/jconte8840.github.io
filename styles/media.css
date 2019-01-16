@@ -1,7 +1,7 @@
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 900px) {
 
-    .mobilenav {
-      
+    .mobile_nav {
+      margin-right: 0em;
     }
 .imgtest{
     width: 13em;

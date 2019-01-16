@@ -10,11 +10,16 @@
     text-decoration: none;
     color: black;
 }
-
+.contacts a:active{
+    color: white
+}
+.contacts a:hover{
+    color: red;
+}
 .contacts{
     font-size: 2em;
     margin-top: 2em;
-    font-family: 'Oswald'
+    font-family: 'Oswald', sans-serif; 
 }
 
 .list_style{
@@ -22,7 +27,16 @@
 }
 
 .social_links{
-    font-family: 'Bangers';
+    font-family: 'Bangers', sans-serif;
     color: white;
     margin-left: 2em;
+}
+
+#quote_text{
+    font-family: 'Thasadith', serif;
+    color: blue;
+}
+
+.footer_size{
+    margin-left 3em;
 }
