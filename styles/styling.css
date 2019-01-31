@@ -1,42 +1,141 @@
-.email_link a:hover{
-    color: white
+.email_link a:hover {
+	color: white
 }
 
-.email_link a:link{
-    text-decoration: none;
+.email_link a:link {
+	text-decoration: none;
 }
 
-.contacts a:link{
-    text-decoration: none;
-    color: black;
-}
-.contacts a:active{
-    color: white
-}
-.contacts a:hover{
-    color: red;
-}
-.contacts{
-    font-size: 2em;
-    margin-top: 2em;
-    font-family: 'Oswald', sans-serif; 
+.contacts a:link {
+	text-decoration: none;
+	color: black;
 }
 
-.list_style{
-    line-height: 2em;   
+.contacts a:active {
+	color: white
 }
 
-.social_links{
-    font-family: 'Bangers', sans-serif;
-    color: white;
-    margin-left: 2em;
+.contacts a:hover {
+	color: red;
 }
 
-#quote_text{
-    font-family: 'Thasadith', serif;
-    color: blue;
+.contacts {
+	font-size: 2em;
+	margin-top: 2em;
+	font-family: 'Oswald', sans-serif;
 }
 
-.footer_size{
-    margin-left 3em;
+.list_style {
+	line-height: 2em;
 }
+
+.social_links {
+	font-family: 'Bangers', sans-serif;
+	color: white;
+	position: absolute;
+	left: 46em;
+}
+
+#quote_text {
+	font-family: 'Thasadith', serif;
+	color: blue;
+}
+
+.footer_size {
+	margin-left 3em;
+}
+
+
+.body2 {
+	font-family: Helvetica, sans-serif;
+	padding: 5%;
+	text-align: center;
+}
+
+#slideshow {
+	overflow: hidden;
+	height: 510px;
+	width: 728px;
+	margin: 0 auto;
+	position: relative;
+	top: -74px;
+}
+
+.slide-wrapper {
+	width: 2912px;
+	-webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+	float: left;
+	height: 510px;
+	width: 728px;
+}
+
+.slide:nth-child(1) {
+	background: #D93B65;
+	background-image: url(images/code.jpg);
+}
+
+.slide:nth-child(2) {
+	background: #037E8C;
+}
+
+.slide:nth-child(3) {
+	background: #36BF66;
+}
+
+.slide:nth-child(4) {
+	background: #D9D055;
+}
+
+.slide-number {
+	color: #000;
+	text-align: center;
+	font-size: 3em;
+}
+
+@-webkit-keyframes slide {
+	20% {
+		margin-left: 0px;
+	}
+
+	30% {
+		margin-left: -728px;
+	}
+
+	50% {
+		margin-left: -728px;
+	}
+
+	60% {
+		margin-left: -1456px;
+	}
+
+	70% {
+		margin-left: -1456px;
+	}
+
+	80% {
+		margin-left: -2184px;
+	}
+
+	90% {
+		margin-left: -2184px;
+	}
+}
+
+
+
+{
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+

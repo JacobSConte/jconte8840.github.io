@@ -10,10 +10,6 @@
 </head>
 
 <title>Examples</title>
-
-<body>
-
-
 <div class="mainnav page_link">
     <nav>
         <ul>
@@ -48,7 +44,7 @@
 </section>
 <!-- Search Code Ends -->
 
-
+<body>
     <div class="title1 aboutfont">    
             <h1 class="test_title theight">Examples of My Work</h1>
    </div>

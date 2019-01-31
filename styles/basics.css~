@@ -319,9 +319,7 @@ img{
 }
 
 .theight {
-    position: absolute;
-    top: 5em;
-    left: 15em;
+    margin-top: 76px;
 }
 
 .headings {
