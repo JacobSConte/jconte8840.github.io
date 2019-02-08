@@ -60,10 +60,10 @@
 
 <div>   
    <p id="html_lang">HTML</p> 
-   <p id="css_lang">CSS</p>
-   <p id="script_lang">Javascript</p>
-   <p id="php_lang">PHP</p>
-    <p id="sql_lang">MySQL</p>
+   id="css_lang">CSS
+    id="script_lang">Javascript
+    id="php_lang">PHP
+         id="sql_lang">MySQL
 </div>
 
 <center>

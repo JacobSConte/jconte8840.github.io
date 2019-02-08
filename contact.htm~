@@ -58,7 +58,7 @@
     </h1>
     <div class="contacts" id="email_size">
         <a href="mailto:jacobcontewebdesign@gmail.com">jacobcontewebdesign@gmail.com</a>
-         <a id="phone_link" href="tel:12396665244">239-666-5244</a>   
+         <a href="tel:12396665244">239-666-5244</a>   
     </div>
     <!-- Footer Code -->
     <div class="footer email_link">

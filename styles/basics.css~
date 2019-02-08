@@ -147,7 +147,21 @@ header {
     margin-top: 82px;
 
 }
+#html_lang {
+		position: absolute;
+		top: 14em;
+		left:  50.4em;
+}
 
+#css_lang{
+position: absolute;
+top: 16em;
+left: 51em;
+}
+#script_lang{
+position: absolute;
+top: 
+}
 .home {
     color: black;
     font-size: 1.375em;
@@ -292,7 +306,19 @@ img{
 }
 
 /*Title Settings*/
+#rebrand{
+		position: absolute;
+		top: 9em;
+ 		left: 20.2em;
 
+}
+
+
+#lee{
+   position: absolute;
+   top: 6em;
+   left: 18em; 
+}
 .index_title {
     font-size: 3em;
     font-family: 'Rubik', sans-serif;
@@ -319,7 +345,9 @@ img{
 }
 
 .theight {
-    margin-top: 76px;
+    position: absolute;
+    top: 4em;
+    left: 19em;
 }
 
 .headings {

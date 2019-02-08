@@ -22,9 +22,9 @@
                 <li class="two"><a href="examples.htm">Examples</a></li>
                 <li class="two"><a href="contact.htm">Contact</a></li>
                 <h1>
-                    <center>
+                    
                         <p class="nav_title mobile_nav">Jacob Conte, Computer Programmer</p>
-                    </center>
+                    
                 </h1>
             </ul>
         </nav>
@@ -50,12 +50,12 @@
     </section>
     <!-- Search Code Ends -->
     <div class="title1 aboutfont">
-        <center>
+        
             <h1 class="test_title index_title theight">Clients Served</h1>
 
             <p class="list_space1 test_title">Rebrand-It</p>
             <p class="list_space2 test_title">Lee County Science Fair</p>
-        </center>
+        
     </div>
 </body>
 
@@ -63,15 +63,15 @@
 <div class="footer email_link">
     <link rel="icon" href="images/GitHub_Logo.png">
     <link rel="icon" href="images/In-2C-81px-R.png">
-    <p class="social_links" align="left">Social Links</p>
+    <p class="social_links">Social Links</p>
     <a href="https://github.com/jconte8840" target="_blank"><img src="images/GitHub_Logo.png"  align="left"  class="github_logo"></a>
     <a href="https://www.linkedin.com/in/jacob-conte-143818111/" target="_blank"><img src="images/In-2C-81px-R.png" align="left" class="linkedin_logo"> </a>
       
-    <center>
+    
         <p class="footer_font footer_link">Email me questions at</p>
     
     <a href="mailto:jacobcontewebdesign@gmail.com" class="footer_link">jacobcontewebdesign@gmail.com</a>
-    </center>
+    
     </div>    
 </html>
 

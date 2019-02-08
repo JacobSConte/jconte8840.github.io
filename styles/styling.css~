@@ -127,22 +127,7 @@
 
 
 
-button:before {
-	content:'';
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 0px;
-	height: 42px;
-	background: rgba(255,255,255,0.3);
-	border-radius: 5px;
-	transition: all 2s ease;
-} 
-
-
-
-
-button {
+{
 	border: none;
 	background: #3a7999;
 	color: #f2f2f2;
@@ -153,110 +138,21 @@ button {
 	box-sizing: border-box;
 	transition: all 500ms ease; 
 }
-button:hover:before {
-	width: 100%;
+
+#email_size{
+		position: absolute;
+		top: 8em;
+		left: 17em;
 }
 
-button:before {
-	content:'';
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 0px;
-	background: rgba(255,255,255,0.3);
-	border-radius: 5px;
-	transition: all 2s ease;
+#contact_size{
+		position: absolute;
+		top: 3em;
+		left: 11em
 }
 
-button:hover:before {
-	height: 42px;
+#phone_link{
+		position: absolute;
+		top: 1em;
+		left: 1em;
 }
-
-button:hover {
-	background: rgba(0,0,0,0);
-	color: #3a7999;
-	box-shadow: inset 0 0 0 3px #3a7999;
-}
-
-button{ 
-	padding: 10px 35px;  
-	overflow:hidden;
-}
-
-button:before {
-	font-family: FontAwesome;
-	content:;
-	position: absolute;
-	top: 11px;
-	left: -30px;
-	transition: all 200ms ease;
-}
-
-button:hover:before {
-	left: 7px;
-}
-
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		-webkit-transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		-webkit-transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-
-
-button:hover {
-	animation: bounce 1s;
-}
-
-
-button:hover {
-transform: skew(-10deg);
-}
-
-
-
-button {
-	border: 3px solid #3a7999;
-}
-button:hover {
-	border: 3px dotted #3a7999;
-	color: #3a7999;
-	background: rgba(0,0,0,0);
-}
-
-button {
-	transform-style: preserve-3d;
-}
-
-
-
-button:after {
-	top: -100%;
-	left: 0px;
-	width: 100%;
-	position: absolute;
-	background: #3a9999;
-	border-radius: 5px;
-	content: 'Flipped';
-	transform-origin: left bottom;
-	transform: rotateX(90deg);
-}
-
-
-Now all that’s left to do is to create the hover animation:
-button:hover {
-	transform-origin: center bottom;
-	transform: rotateX(-90deg) translateY(100%);
