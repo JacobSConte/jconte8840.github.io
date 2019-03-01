@@ -95,7 +95,6 @@ video {
 /* Navigation */
 .mainnav {
     position: sticky;
-    width: 100%;
 }
 a{
     display: block;
@@ -114,11 +113,10 @@ ul {
     display: inline-block;
     float: right;
 }
-
+/* Make Media Query to adjust the width of Google Search for mobile devices */
 #googlesearch {
     width: 25%;
     float: right;
-    background-color: blue;
 }
 
 /* Main Settings */
@@ -165,8 +163,8 @@ header {
     font-family: 'Oswald', sans-serif;
     line-height: 34.4px;
     text-indent: 26px;
-    position: relative;
-    top: 20vh;
+    /*position: relative;
+    top: 20vh;*/
 }
 
 blockquote {
@@ -174,12 +172,7 @@ blockquote {
     border-left: 10px solid red;
     margin: 0;
     padding: 0.5em;
-    position: relative;
-    width: 36vw;
-    left: 0;
-    top: 0;
-    
-
+    width: 35%;
 }
 
 .EmailText {
@@ -316,19 +309,19 @@ img{
 .index_title {
     font-size: 3em;
     font-family: 'Rubik', sans-serif;
-    position: absolute;
+    /*position: absolute;
     top: 1em;
-    left: 9em;
+    left: 9em;*/
 }
 
 .nav_title {
     font-size: 1.750em;
     font-family: 'Bangers', cursive;
     color: white;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    
+    float: left;
+    position: relative;
+    top: 0.5vh;
+    left: 52vh;
 }
 
 .list_space1 {
@@ -463,8 +456,7 @@ img{
 }
 /* Mobile Nav */
 @media only screen and (max-width: 1366px){
-body {
-  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .mobile-container {
@@ -514,15 +506,4 @@ body {
 }
 }
 
-@media only screen and (max-width: 1366px){
-ul {
-    display: none;
-}
-}
 
-
-@media only screen and (max-width: 1366px){
-ul {
-    display: none;
-}
-    {

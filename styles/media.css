@@ -1,0 +1,21 @@
+/* Search Bar for Phones and Tablets */
+@media screen and (max-width: 900px) {
+#googlesearch{
+        width: 50%;
+    }
+}
+/* Navigation Bar */
+@media screen and (max-width: 720px) {
+.nav_title{
+   display: none;
+     
+    }
+}
+
+/* Blockquote */
+
+@media screen and (max-width: 900px) {
+    blockquote  {
+        width: 77%;
+    }
+}
