@@ -1,21 +1,30 @@
 /* Search Bar for Phones and Tablets */
 @media screen and (max-width: 900px) {
 #googlesearch{
-        width: 50%;
+    width: 100%;
+    float: left;
+    position: relative;
+    bottom: -0.1em;
     }
 }
 /* Navigation Bar */
 @media screen and (max-width: 720px) {
 .nav_title{
-   display: none;
-     
+    display: none;
     }
 }
 
 /* Blockquote */
 
 @media screen and (max-width: 900px) {
-    blockquote  {
-        width: 77%;
+blockquote  {
+    width: 77%;
+    }
+}
+
+@media screen and (min-width: 724px) {
+.nav_title{
+    display: none;
+    
     }
 }

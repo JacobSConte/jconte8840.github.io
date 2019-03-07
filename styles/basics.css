@@ -152,6 +152,7 @@ header {
     position: absolute;
     top: 16em;
     left: 51em;
+    font-family: 'ZCOOL QingKe Huang';
 }
 #script_lang{
     position: absolute;
@@ -159,20 +160,30 @@ header {
 }
 .home {
     color: black;
-    font-size: 1.375em;
+    /*font-size: 1.375em;*/
     font-family: 'Oswald', sans-serif;
-    line-height: 34.4px;
-    text-indent: 26px;
+    /*line-height: 34.4px;
+    text-indent: 26px;*/
     /*position: relative;
     top: 20vh;*/
+    
 }
-
+#index_github_logo{
+    float: left;
+    position: relative;
+    left: -4em;
+    bottom: -1em;
+}
 blockquote {
     background: white;
     border-left: 10px solid red;
     margin: 0;
     padding: 0.5em;
     width: 35%;
+    float: left;
+    position: relative;
+    right: -30em;
+    bottom: -12em;
 }
 
 .EmailText {
@@ -272,7 +283,23 @@ li.currenttab {
     font-family: "Bangers", cursive;
     color: white;
 }
-
+#contact_index{
+    float: right;
+    position: relative;
+    right: 47em;
+    top: -2em;    
+}
+#footer_tel{
+    float: right;
+    position: relative;
+    right: 37em;
+    top: -1.2em;
+}
+#index_tel{
+    float: right;
+    right: 26em;
+    position: relative;
+}
 /* Images */
 
 img{
@@ -290,6 +317,9 @@ img{
 
 .linkedin_logo {
     width: 3.563em;
+    float: left;
+    left: -4em;
+    position: relative;
 }
 
 /*Title Settings*/
@@ -349,9 +379,6 @@ img{
 .footer_link {
     font-family: 'Oswald', sans-serif;
     color: gold;
-    position: relative;
-    left: 30em;
-    top: -2em;
 }
 
 .footer_link a: {
