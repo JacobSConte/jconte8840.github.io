@@ -20,7 +20,7 @@ body{
     float: left;
     width: 100%;
     padding: 10px;
-    height: 50%;
+    height: 100%;
   }
   
   /* Clear floats after the columns */
