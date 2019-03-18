@@ -20,7 +20,7 @@ body{
     float: left;
     width: 100%;
     padding: 10px;
-    height: 50%;
+    height: 75%;
   }
   
   /* Clear floats after the columns */
@@ -76,7 +76,7 @@ ul.topnav {
  }
  
 #signature_font{
-  font-family: 'Pacifico', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: 'Pacifico';
   color: blue;
   font-size: 4em;
   position: relative;
@@ -95,7 +95,7 @@ ul.topnav {
 @media screen and (max-width: 600px) {
     .column {
       width: 100%;
-      height: 57%;
+      height: 110%;
     }
   ul{
     position: static;
@@ -103,19 +103,23 @@ ul.topnav {
   
   #php_position{
    position: relative;
-   right: -28%;
+   right: -8%;
   }
   #js_position{
     position: relative;
-    right: -22%;
+    right: -7%;
   }
   #css_position{
     position: relative;
-    right: -16%;
+    right: -3%;
   }
   #html_position{
     position: relative;
-    right: -9%;
+    right: 0%;
+  }
+  #signature_font{
+    position: relative;
+    top: -12%;
   }
 }
 
