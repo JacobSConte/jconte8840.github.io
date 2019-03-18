@@ -2,25 +2,65 @@
 body{
     margin: 0;
 }
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0261ea;
+  color: white;
+  text-align: center;
+}
 #mission_text{
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
-#index_header_font{
+.index_header_font{
     font-family: 'Proza Libre', sans-serif;
     text-align: center
 }
 * {
     box-sizing: border-box;
   }
-  
+  .button_effects{
+    background-color: #0261ea;
+    color: black;
+    text-decoration: none;
+  }
+  .linked_in_positioning{
+    position: relative;
+    right: -42%;
+  }
+  .github_positioning{
+    position: relative;
+    right: -38%;
+  }
+  .button_effects:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+  }
+  a:link{
+    text-decoration: none;
+    color: #000;
+  }
+a:active{
+    color: black;
+    text-decoration: none;
+  }
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
   /* Create two equal columns that floats next to each other */
   .column {
     float: left;
     width: 100%;
     padding: 10px;
-    height: 75%;
+    height: 46%;
   }
   
   /* Clear floats after the columns */
