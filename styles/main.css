@@ -2,6 +2,9 @@
 body{
     margin: 0;
 }
+.footer_text{
+  font-family: 'Roboto', sans-serif;
+}
 .footer {
   position: fixed;
   left: 0;
@@ -163,11 +166,11 @@ ul.topnav {
   }
   .linked_in_positioning{
     position: relative;
-    right: -3%;
+    right: -19%;
   }
 .github_positioning{
   position: relative;
-  right: 0%;
+  right: -20%;
 }
 }
 
