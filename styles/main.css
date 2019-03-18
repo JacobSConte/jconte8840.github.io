@@ -161,6 +161,14 @@ ul.topnav {
     position: relative;
     top: -12%;
   }
+  .linked_in_positioning{
+    position: relative;
+    right: -3%;
+  }
+.github_positioning{
+  position: relative;
+  right: 0%;
+}
 }
 
 @media screen and (min-width: 600px){
