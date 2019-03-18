@@ -19,7 +19,7 @@ body{
     float: left;
     width: 100%;
     padding: 10px;
-    height: 100%;
+    height: 50%;
   }
   
   /* Clear floats after the columns */
@@ -70,7 +70,10 @@ ul.topnav {
       float: right;
       font-size: 1em;
     }
- 
+ #php_position{
+   position: relative;
+   right: 0%;
+ }
  
  
  
@@ -89,4 +92,40 @@ ul.topnav {
   ul{
     position: static;
   }  
+  
+  #php_position{
+   position: relative;
+   right: -28%;
   }
+  #js_position{
+    position: relative;
+    right: -22%;
+  }
+  #css_position{
+    position: relative;
+    right: -16%;
+  }
+  #html_position{
+    position: relative;
+    right: -9%;
+  }
+}
+
+@media screen and (min-width: 600px){
+  #php_position{
+    position: relative;
+    right: -44%;
+  }
+  #js_position{
+    position: relative;
+    right: -40%;
+  }
+  #css_position{
+    position: relative;
+    right: -36%;
+  }
+  #html_position{
+    position: relative;
+    right: -32%;
+  } 
+}
