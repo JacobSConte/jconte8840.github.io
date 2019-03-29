@@ -120,7 +120,8 @@ ul.topnav {
  
 #signature_font{
   font-family: 'Pacifico';
-  color: blue;
+  color: #D4AF37;
+  text-shadow: 3px 0px black;
   font-size: 4em;
   position: relative;
     text-align: center;
