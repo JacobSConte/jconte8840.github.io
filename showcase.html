@@ -1,10 +1,13 @@
 <html>
 <head>
+  <title>Showcase | jacobconte.com</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/JClogo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Proza+Libre|Roboto" rel="stylesheet">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link rel="stylesheet" type="text/css" href="browser_reset.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="slide_show.css"
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -17,11 +20,51 @@
         </script>
 </head>
 <body>
+    <ul class="topnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="showcase.html">Client Showcase</a></li>
+        <li><a href="#">Inspirational Quotes-Coming Soon</a></li> 
+        <li class="right"><img src="images/logo.jpg"></li> 
+    </ul>
     <div class="row">
         <div class="column">
-            </div>
-            <div class="column">
-                          </div>
+            <style>
+                .mySlides {display:none;}
+                </style>
+                
+                
+                <h1 id="showcase_title">Client Showcase</h1>
+                
+                <div class="w3-content w3-display-container">
+                  <img class="mySlides height_image" src="images/ocean.jpg" style="width:100%";>
+                  <img class="mySlides height_image" src="images/sea.jpg" style="width:100%">
+                  <img class="mySlides height_image" src="images/wave.jpg" style="width:100%">
+                  <img class="mySlides height_image" src="images/sea.jpg" style="width:100%">
+                
+                  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                
+                <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+                </script>
+        </div>
 
                           <div class="footer">
                                 <a class="footer_text" href="tel:239-666-5244">239-666-5244</a><br>

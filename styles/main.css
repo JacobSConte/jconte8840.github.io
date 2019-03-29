@@ -94,7 +94,9 @@ ul.topnav {
     overflow: hidden;
     background-color: #0261ea;
   }
-  
+  .height_image{
+    height: 510px;
+  }
   ul.topnav li {float: left;}
   
   ul.topnav li a {
@@ -106,7 +108,9 @@ ul.topnav {
     text-decoration: none;
   }
   /*ul.topnav li a:hover:not(.active) {background-color: #111;}*/
-  
+  .w3-display-container{
+    top: -1%
+  }
   ul.topnav li a.active {background-color: black;}
   
   ul.topnav li.right {
@@ -117,7 +121,10 @@ ul.topnav {
    position: relative;
    right: -44%;
  }
- 
+ #showcase_title{
+   font-family: 'Proza Libre', sans-serif;
+   text-align: center;
+ }
 #signature_font{
   font-family: 'Pacifico';
   color: #D4AF37;
