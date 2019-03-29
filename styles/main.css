@@ -111,7 +111,7 @@ ul.topnav {
   
   ul.topnav li.right {
       float: right;
-      font-size: 1em;
+      height: 0px;
     }
  #php_position{
    position: relative;
