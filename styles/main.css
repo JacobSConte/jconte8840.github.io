@@ -115,7 +115,7 @@ ul.topnav {
     }
  #php_position{
    position: relative;
-   right: 0%;
+   right: -44%;
  }
  
 #signature_font{
@@ -181,14 +181,14 @@ ul.topnav {
   }
   #js_position{
     position: relative;
-    right: -40%;
+    right: -42%;
   }
   #css_position{
     position: relative;
-    right: -36%;
+    right: -40%;
   }
   #html_position{
     position: relative;
-    right: -32%;
+    right: -38%;
   } 
 }
