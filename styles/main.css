@@ -30,6 +30,10 @@ body{
     color: black;
     text-decoration: none;
   }
+  .button_font{
+    font-size: 24px;
+    color: white;
+  }
   .linked_in_positioning{
     position: relative;
     right: -42%;
@@ -155,30 +159,37 @@ ul.topnav {
   #php_position{
    position: relative;
    right: -8%;
+   font-size: 72px;
   }
   #js_position{
     position: relative;
     right: -7%;
+    font-size: 72px;
   }
-  #css_position{
-    position: relative;
-    right: -3%;
+#css_position{
+  position: relative;
+  right: -3%;
+  font-size: 72px;
+  color: skyblue;
   }
-  #html_position{
-    position: relative;
-    right: 0%;
+#html_position{
+  position: relative;
+  right: 0%;
+  color: darkorange;
+  font-size: 72px;
   }
   #signature_font{
     position: relative;
-    top: -12%;
+    top: 2%;
   }
   .linked_in_positioning{
     position: relative;
-    right: -19%;
+    right: 21%;
+    bottom: -3em;
   }
 .github_positioning{
   position: relative;
-  right: -20%;
+  right: -27%;
 }
 }
 
@@ -186,17 +197,24 @@ ul.topnav {
   #php_position{
     position: relative;
     right: -44%;
+    font-size: 72px;
   }
   #js_position{
     position: relative;
     right: -42%;
+    font-size: 72px;
   }
   #css_position{
     position: relative;
     right: -40%;
+    font-size: 72px;
+    color: skyblue;
+    text-align: center;
   }
   #html_position{
     position: relative;
     right: -38%;
+    font-size: 72px;
+    color: darkorange;
   } 
 }
