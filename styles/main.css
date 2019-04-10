@@ -1,3 +1,4 @@
+/* Add Tablet Media Queries and other breakpoints ASAP. */ 
 /*Basic Tags*/
 body{
     margin: 0;
@@ -85,7 +86,7 @@ ul{
 /*Navigation Bar*/
 /* Add a gray right border to all list items, except the last item (last-child) */
 li {
-    border-right: 1px solid #bbb;
+    border-right: 1.5px solid white;
   }
 
   li:last-child {
@@ -115,7 +116,10 @@ ul.topnav {
   .w3-display-container{
     top: -1%
   }
-  ul.topnav li a.active {background-color: black;}
+  ul.topnav li a.active {
+    background-color: black;
+    color: white;
+  }
   
   ul.topnav li.right {
       float: right;
@@ -158,38 +162,41 @@ ul.topnav {
   
   #php_position{
    position: relative;
-   right: -8%;
+   right: -26%;
    font-size: 72px;
   }
   #js_position{
     position: relative;
-    right: -7%;
+    right: -19%;
     font-size: 72px;
   }
 #css_position{
   position: relative;
-  right: -3%;
+  right: -10%;
   font-size: 72px;
   color: skyblue;
   }
 #html_position{
   position: relative;
-  right: 0%;
+  right: -2%;
   color: darkorange;
   font-size: 72px;
   }
   #signature_font{
     position: relative;
-    top: 2%;
+    top: 0%;
   }
   .linked_in_positioning{
     position: relative;
-    right: 21%;
+    right: 15%;
     bottom: -3em;
   }
 .github_positioning{
   position: relative;
-  right: -27%;
+  right: -29%;
+}
+#nav_title{
+  
 }
 }
 
