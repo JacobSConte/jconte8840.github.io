@@ -1,0 +1,113 @@
+/* Add Tablet Media Queries and other breakpoints ASAP. */ 
+/*Basic Tags*/
+body{
+    margin: 0;
+}
+.footer_text{
+  font-family: 'Roboto', sans-serif;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0261ea;
+  color: white;
+  text-align: center;
+}
+#mission_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.6;
+    position: relative;
+    top: 9%;
+
+}
+.index_header_font{
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-size: 2.5em;
+}
+  a:link{
+    text-decoration: none;
+    color: white;
+  }
+a:active{
+    color: black;
+    text-decoration: none;
+  }
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+ul{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+/*Navigation Bar*/
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1.5px solid white;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0261ea;
+  }
+  .height_image{
+    height: 510px;
+  }
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*ul.topnav li a:hover:not(.active) {background-color: #111;}*/
+  .w3-display-container{
+    top: -1%
+  }
+  ul.topnav li a.active {
+    background-color: black;
+    color: white;
+    font-weight: 900;
+  }
+  
+  ul.topnav li.right {
+      float: right;
+      height: 0px;
+    }
+ #php_position{
+   position: relative;
+   right: -44%;
+ }
+ #showcase_title{
+   font-family: 'Proza Libre', sans-serif;
+   text-align: center;
+ }
+#signature_font{
+  font-family: 'Pacifico';
+  color: #D4AF37;
+  text-shadow: 3px 0px black;
+  font-size: 4em;
+  position: relative;
+    text-align: center;
+    top: 33%;
+ }
