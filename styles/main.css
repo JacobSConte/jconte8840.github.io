@@ -1,4 +1,9 @@
-
+header{
+	border: 3px solid orange;
+}
+footer{
+	border: 3px solid green;
+}
 .HolyGrail {
 	display: flex;
 	min-height: 100vh;
@@ -35,12 +40,12 @@
 		flex: 1;
 	}
 	.HolyGrail-content {
-		/*border: 3px solid blue;*/
+		border: 3px solid blue;
 		flex: 1;
 	}
 	.HolyGrail-nav, .HolyGrail-ads {
 		/* 12em is the width of the columns */
-		/*border: 3px solid red;*/
+		Border: 3px solid red;
 		flex: 0 0 12em;
 	}
 }
