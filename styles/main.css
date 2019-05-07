@@ -45,7 +45,7 @@ footer{
 	}
 	.HolyGrail-nav, .HolyGrail-ads {
 		/* 12em is the width of the columns */
-		Border: 3px solid red;
+		/*Border: 3px solid red;*/
 		flex: 0 0 12em;
 	}
 }
