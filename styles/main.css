@@ -134,7 +134,8 @@ body {background-color: 	#708090}
     font-size: 1.5em;
     line-height: 1.9em;
     justify-content: center;
-    right: -19px;
+    right: -13px;
+    position: relative;
     width: 96%; 
   }
 
