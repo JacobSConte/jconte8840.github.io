@@ -132,8 +132,14 @@ body {background-color: 	#708090}
     color: black;
     font-family: 'Biryani', sans-serif;
     font-size: 1.5em;
-    line-height: 1.7em;
-    position: absolute;
-    bottom: 18em;
+    line-height: 1.9em;
+    justify-content: center;
+    right: -11px;
+    width: 96%; 
   }
+
   /* Media Queries */
+  #slogan{
+    font-size: 1.1em;
+  }
+}
