@@ -1,1 +1,0 @@
-document.location='https://www.linkedin.com/in/jacob-conte-143818111/

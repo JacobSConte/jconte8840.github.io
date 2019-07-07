@@ -1,51 +1,139 @@
-/*header{
-	border: 3px solid orange;
-}
-footer{
-	border: 3px solid green;
-}*/
-.HolyGrail {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-}
-.HolyGrail-body {
-	display: flex;
-	flex: 1;
-}
-.HolyGrail-content {
-	flex: 1;
-}
-.HolyGrail-nav, .HolyGrail-ads {
-	/* 12em is the width of the columns */
-	flex: 0 0 12em;
-}
-.HolyGrail-nav {
-	/* put the nav on the left */
-	order: -1;
-}
-.HolyGrail,
-.HolyGrail-body {
-	display: flex;
-	flex-direction: column;
-}
+/* Stylesheet for index.html only */
+/*
+Table of Contents
 
-.HolyGrail-nav {
-	order: -1;
-}
+Browser Reset Code Line 21
+CSS Grid Layout Line 67
+Navigation Bar Properties Line 81
 
-@media (min-width: 368px) {
-	.HolyGrail-body {
-		flex-direction: row;
-		flex: 1;
-	}
-	.HolyGrail-content {
-		/*border: 3px solid blue;*/
-		flex: 1;
-	}
-	.HolyGrail-nav, .HolyGrail-ads {
-		/* 12em is the width of the columns */
-		/*Border: 3px solid red;*/
-		flex: 0 0 12em;
-	}
+*/
+/* Browser Reset Code
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Browser Reset Code*/
+/* Website Code */
+body {background-color: 	#708090}
+/* CSS Grid Layout */
+.item1 { grid-area: header; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 0px;
+  }
+  
+  .grid-container > div {
+    padding:  0;
+  }
+/* Navigation Bar Properties */ 
+  #nav_container{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0261ea;
+  
+  }
+  #nav_items:last-child {
+    border_right: none;
+  }
+  .nav_items {
+    float: left;
+    border-right: 1px solid white;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .nav_items a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav_items a:hover:not(.active) {
+    background-color: white;
+    color: black;
+  }
+  
+  .active {
+    background-color: black;
+  }
+
+  .nav_items_active{
+      float: right;
+      border-right: none;
+      color: white;
+      font-size: 24px;
+      margin: 8px;
+  }
+  /* Page Titles */
+  #title_header{
+    color: #FFB81C;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 2.7em;
+  }
+  #slogan{
+    color: black;
+    font-family: 'Biryani', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    position: absolute;
+    bottom: 18em;
+  }
+  /* Media Queries */

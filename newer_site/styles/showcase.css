@@ -1,20 +1,10 @@
 /* Clear gives it a modern look */
-#background_imgs{
-    background-image: url("../images/tech.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 90%;
-    margin-bottom: 0px;
-    clear: both;
-   /* background-color: grey*/
-}
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
   margin: auto;
 }
 
@@ -105,15 +95,17 @@
 }
 
 #slide_style{
-    top: 4%;
+  position: relative;
+  top: 10em;
 }
 
-#logo {
+/*#logo {
     position: relative;
     top: 4%;
-}
+}*/
 .test_color{
-    color: lawngreen!important;
+    color: red!important;
+    text-shadow: white;
 }
 /* Media Queries */
 @media screen and (max-width: 600px) {
