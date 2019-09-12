@@ -88,9 +88,7 @@ body {background-color: 	#708090}
     background-color: #0261ea;
   
   }
-  #nav_items:last-child {
-    border_right: none;
-  }
+
   .nav_items {
     float: left;
     border-right: 1px solid white;
@@ -104,7 +102,20 @@ body {background-color: 	#708090}
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+  .link_color{
+    color: gold;
+    text-decoration: none;
+  }
+  .dev_color
+  li:link_color{
+    color: gold;
+  }
+  li:link_color:active{
+    color: gold;
+  }
+ li:link_color:visited{
+    color: gold;
+  }
   .nav_items a:hover:not(.active) {
     background-color: white;
     color: black;
@@ -126,7 +137,7 @@ body {background-color: 	#708090}
     color: #FFB81C;
     text-align: center;
     font-family: 'Staatliches', cursive;
-    font-size: 2.7em;
+    font-size: 4em;
   }
   #slogan{
     color: black;
@@ -134,13 +145,81 @@ body {background-color: 	#708090}
     font-size: 1.5em;
     line-height: 1.9em;
     justify-content: center;
-    right: -13px;
     position: relative;
     width: 96%; 
+    top: 1em;
+    left: 1.5em;
   }
+/* Footer */
+#footer_column{
+  flex: 1;
+}
+#footer_column:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#footer_positioning{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display:flex;
+  
+  width: 100%;
+  background-color: #0261ea;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.footer_list_positioning {
+  position: relative;
+  top: .2em;
+  line-height: 1.4em;
+}
+.footer_list_positioning2{
+  position: relative;
+  top: .2em;
+  line-height: 1.4em;
+}
+.footer_header{
+font-size: 1.5em;
+}
+#links_positioning{
+  text-align: left;
+ flex :1 ;
+ position: relative;
+ bottom: 2em;
+}
+
+#developers_positioning{
+  text-align: left;
+  flex:1; 
+  position: relative;
+  bottom: 2.5em;
+  left: 1em
+}
 
   /* Media Queries */
-  #slogan{
+  @media (max-width: 800px){
+  
+    #slogan{
     font-size: 1.1em;
   }
+  footer {
+    display: none;
+  }
+  #footer_positioning{
+    display: none;
+  }
+}
+@media (max-width: 800px){
+/*#links_positioning{
+  display: none;
+}
+#developers_positioning{
+  display: none;
+}
+
+*/
+
 }
