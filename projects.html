@@ -4,6 +4,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/JClogo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js"></script>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link href="https://fonts.googleapis.com/css?family=Bangers|Josefin+Sans|Staatliches|Biryani|Roboto&display=swap" rel="stylesheet">
 </head>
@@ -12,8 +13,8 @@
 <div class="item1">
    <nav>
       <ul id="nav_container">
-          <li class="nav_items"><a href="index.html" class="active">Home</a></li>
-          <li class="nav_items"><a href="projects.html">Projects</a></li>
+          <li class="nav_items"><a href="index.html">Home</a></li>
+          <li class="nav_items"><a href="projects.html" class="active">Projects</a></li>
           <!--<li class="nav_items"><a href="#">Links</a></li>-->
           <li><a href="https://www.linkedin.com/in/jacob-conte-143818111/" target="_blank"><i class="fab fa-linkedin-in nav_items_active"></i></a><li>
           <li><a href="https://github.com/jconte8840" target="_blank"><i class="fab fa-github nav_items_active"></i></a><li>
@@ -21,20 +22,35 @@
   </nav>
 </div>
 
-
-
 </div>
+<section id="portfolio">Portfolio Slideshow</section>
+<div class="w3-content w3-section test_center" style="max-width:500px">
+    <img class="mySlides" src="images/jc.png" style="width:100%">
+    <img class="mySlides" src="images/jc.png" style="width:100%">
+    <img class="mySlides" src="images/jc.png" style="width:100%">
 
+
+  </div>
+  <script>
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 </section>
-<div class="HolyGrail-body">
-<main class="HolyGrail-content"><p id="title_header">Welcome to My Website</p> 
-    <section id="format_text">
-    <p id="slogan">
-    Welcome to Jacob Conte's Official Website who is a Web Developer that specializes in developing websites for businesses that are looking to develop their brand. Above in my menu is a button linking to both my Linkedin and Github. Please click the links for business opportunties, website needs, and job needs. 
-
-    </p></main>
-  
-</div>
 <footer id="footer_positioning">
     <section id="footer_column">
     <section>
@@ -56,5 +72,3 @@
 </section>
 </section>
 </footer>
-</body>    
-</html>

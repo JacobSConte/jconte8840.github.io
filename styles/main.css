@@ -144,9 +144,8 @@ body {background-color: 	#708090}
     font-family: 'Biryani', sans-serif;
     font-size: 1.5em;
     line-height: 1.9em;
-    justify-content: center;
     position: relative;
-    width: 96%; 
+    width: 91%; 
     top: 1em;
     left: 1.5em;
   }
@@ -198,12 +197,24 @@ font-size: 1.5em;
   bottom: 2.5em;
   left: 1em
 }
-
+#portfolio{
+  font-size: 4em;
+  color: #FFB81C;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+.test_center{
+  margin: 0 auto;
+}
   /* Media Queries */
   @media (max-width: 800px){
   
     #slogan{
     font-size: 1.1em;
+     position: absolute;
+      top: 12em;
+      left: 1.2em;
+    }
   }
   footer {
     display: none;
