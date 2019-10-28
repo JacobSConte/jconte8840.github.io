@@ -1,11 +1,9 @@
 /* Stylesheet for index.html only */
 /*
 Table of Contents
-
 Browser Reset Code Line 21
 CSS Grid Layout Line 67
 Navigation Bar Properties Line 81
-
 */
 /* Browser Reset Code
  http://meyerweb.com/eric/tools/css/reset/ 
@@ -16,7 +14,6 @@ Navigation Bar Properties Line 81
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -65,7 +62,6 @@ table {
 body {background-color: 	#708090}
 /* CSS Grid Layout */
 .item1 { grid-area: header; }
-
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -75,7 +71,6 @@ body {background-color: 	#708090}
     grid-gap: 10px;
     padding: 0px;
   }
-  
   .grid-container > div {
     padding:  0;
   }
@@ -86,15 +81,12 @@ body {background-color: 	#708090}
     padding: 0;
     overflow: hidden;
     background-color: #0261ea;
-  
   }
-
   .nav_items {
     float: left;
     border-right: 1px solid white;
     font-family: 'Josefin Sans', sans-serif;
   }
-  
   .nav_items a {
     display: block;
     color: white;
@@ -120,11 +112,9 @@ body {background-color: 	#708090}
     background-color: white;
     color: black;
   }
-  
   .active {
     background-color: black;
   }
-
   .nav_items_active{
       float: right;
       border-right: none;
@@ -189,7 +179,6 @@ font-size: 1.5em;
  position: relative;
  bottom: 2em;
 }
-
 #developers_positioning{
   text-align: left;
   flex:1; 
@@ -208,14 +197,12 @@ font-size: 1.5em;
 }
   /* Media Queries */
   @media (max-width: 800px){
-  
     #slogan{
     font-size: 1.1em;
      position: absolute;
       top: 12em;
       left: 1.2em;
     }
-  
   footer {
     display: none;
   }

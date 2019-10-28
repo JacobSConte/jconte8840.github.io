@@ -1,12 +1,21 @@
 <html>
 <head>
-    <title>Home</title>
+    <title>Portfolio Slideshow</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/JClogo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/main.css">
     <script src="scripts/main.js"></script>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link href="https://fonts.googleapis.com/css?family=Bangers|Josefin+Sans|Staatliches|Biryani|Roboto&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132349209-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132349209-1');
+</script>
 </head>
 <body>
 <div class="grid-container">
@@ -15,29 +24,24 @@
       <ul id="nav_container">
           <li class="nav_items"><a href="index.html">Home</a></li>
           <li class="nav_items"><a href="projects.html" class="active">Projects</a></li>
-          <!--<li class="nav_items"><a href="#">Links</a></li>-->
           <li><a href="https://www.linkedin.com/in/jacob-conte-143818111/" target="_blank"><i class="fab fa-linkedin-in nav_items_active"></i></a><li>
           <li><a href="https://github.com/jconte8840" target="_blank"><i class="fab fa-github nav_items_active"></i></a><li>
      </ul>
   </nav>
 </div>
-
 </div>
 <section id="portfolio">Portfolio Slideshow</section>
 <div class="w3-content w3-section test_center" style="max-width:500px">
     <img class="mySlides" src="images/jc.png" style="width:100%">
     <img class="mySlides" src="images/jc.png" style="width:100%">
     <img class="mySlides" src="images/jc.png" style="width:100%">
-
-
-  </div>
+</div>
   <script>
   function plusDivs(n) {
     showDivs(slideIndex += n);
   }
   var slideIndex = 0;
 carousel();
-
 function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
@@ -47,7 +51,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 4000); // Change image every 4 seconds
 }
 </script>
 </section>
@@ -60,7 +64,6 @@ function carousel() {
          2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script> Jacob Conte, Web Designer.
 </p>
 </section>
-
 <section id="developers_positioning">
     <h1 class="footer_header">Fellow Developers</h1>
      <ul class="footer_list_positioning">
